@@ -1,0 +1,410 @@
+body {
+  background-image: url('data:image/svg+xml;utf8,../images/background.svg');
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  background-position-x: left;
+  background-position-y: top;
+}
+
+#header {
+  max-width: 100%;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+#header .navbar-brand {
+  height: 100%;
+}
+.navbar .navbar-brand {
+  padding-left: 13em;
+}
+#header .navbar .navbar-nav {
+  float: right;
+  padding-right: 1em;
+  align-items: center;
+  padding-left: 5em;
+}
+#header .navbar .nav-link {
+  /* font-size: 1.5em; */
+}
+.navbar .nav-item.active .nav-link {
+  color: #f7941d;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar .navbar-brand {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+}
+/*
+*
+* CARRUSEL
+*
+*/
+#carruselContainer {
+  max-width: 100%;
+}
+#carruselContainer #carrusel {
+  position: relative;
+  line-height: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  height: 400px;
+}
+#carruselContainer #carrusel .carousel-inner {
+  height: 100%;
+}
+#carruselContainer #carrusel .img-car {
+  position: absolute;
+  /* background: rgba(0, 0, 0, 0.2); */
+  -webkit-filter: brightness(0.7); /* Safari 6.0 - 9.0 */
+  filter: brightness(0.7);
+}
+#carruselContainer #carrusel .banner {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding-top: 10em;
+}
+
+@media screen and (min-width: 1024px) {
+  #carruselContainer #carrusel {
+    width: 90%;
+    /* align-self: center; */
+    padding-left: 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #carruselContainer #carrusel {
+    height: 500px;
+    margin-top: 2em;
+  }
+}
+@media screen and (min-width: 1382px) {
+  #carruselContainer #carrusel {
+    width: 80%;
+    padding-left: 20%;
+    height: 600px;
+  }
+}
+
+/*************** ------------------ ***************
+
+***************         MAIN         ***************
+
+*************** ------------------ ***************/
+#mainbody {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+#mainbody h1, #mainbody h2, #mainbody h3, #mainbody h4, #mainbody h5 {
+  color: #f7941d;
+  letter-spacing: 0.1em;
+}
+
+/* ------------------ *
+* ------------------- *
+* Acerca de ULTRAMEDIC *
+* ------------------- *
+* ------------------ */
+.card-group .card-title {
+  text-align: center;
+}
+.card-group .card-text {
+  text-align: justify;
+}
+
+/* ------------------ *
+* ------------------- *
+* Unidades de negocio *
+* ------------------- *
+* ------------------ */
+.row.section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#unidadesNegocioNav .nav.flex-column.nav-pills {
+  align-content: space-between;
+}
+#unidadesNegocioNav .nav-link {
+  /* border-width: 0 0 0.5px 0;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-style: solid !important;
+  border-bottom: black; */
+  margin-bottom: 1px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+#unidadesNegocioNav .nav-link.active {
+  /* border-bottom: #f7941d;
+  border-radius: 0.25rem !important; */
+  background-color: #f7941d !important;
+  color: white;
+}
+
+/* **************************************************
+********************** FOOTER **********************
+************************************************** */
+footer {
+  background: #1e272e;
+}
+
+/* social-icons footer */
+
+footer .tittle {
+  color: white;
+  padding-bottom: 0.5em;
+}
+
+footer .contact_grid_left h6 {
+  /* margin: 0; */
+  font-size: 1.15em;
+  font-weight: normal;
+  color: #8f9aa2 !important;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+footer .contact_grid_left p {
+  margin: 0;
+  color: #8f9aa2 !important;
+}
+
+.utlimas_noticas {
+  border-bottom: 1px solid #313c44;
+  margin-bottom: 1rem;
+}
+
+.utlimas_noticas p {
+  margin: 0;
+}
+
+.loaction-content {
+  text-align: left;
+}
+
+.comentarios-col {
+  padding: 0 !important;
+}
+
+.w3ls-footer ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+.w3ls-footer ul li a span {
+  font-size: 1.5em;
+  height: 40px;
+  width: 40px;
+  line-height: 2.5;
+  background: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.w3ls-footer ul li a span.fa-facebook-f:hover {
+  background: #3b5998;
+  color: #fff;
+  border-color: #3b5998;
+}
+
+.w3ls-footer ul li a span.fa-twitter:hover {
+  background: #55acee;
+  color: #fff;
+  border-color: #55acee;
+}
+
+.w3ls-footer ul li a span.fa-dribbble:hover {
+  background: #f26522;
+  color: #fff;
+  border-color: #f26522;
+}
+
+.w3ls-footer ul li a span.fa-vk:hover {
+  background: #45668e;
+  color: #fff;
+  border-color: #45668e;
+}
+
+/* //social-icons footer */
+
+/* copyright */
+
+p.copy-right-grids {
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+p.copy-right-grids a {
+  color: #7f8a92;
+}
+
+p.copy-right-grids {
+  color: #fff;
+}
+
+/* //copyright */
+
+/* //footer */
+
+a.move-top span {
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border: transparent;
+  line-height: 2em;
+  background: #626c733b;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+/* contact form */
+
+.contact-info p {
+  margin: 0 auto;
+  width: 84%;
+}
+
+.contact-form-inner {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.contact-form .form-control {
+  padding: 0.5em;
+  background-color: #495663;
+  color: #a6b7c7;
+  border: 1px solid #495663;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  height: auto;
+}
+
+.contact-form label {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #4e4d4d;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-form textarea {
+  overflow: auto;
+  resize: vertical;
+  height: 10em;
+}
+
+.contact-form button.btn {
+  background: #34ace1;
+  padding: 0.5em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 2px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  border: transparent;
+  width: 100%;
+}
+
+.contact-form button.btn:hover {
+  background: #ffa801;
+}
+
+.map iframe {
+  width: 100%;
+  min-height: 300px;
+  border: none;
+  border: 4px solid #eee;
+}
+
+/* //contact form */
+
+/* contact address */
+
+.primer_contenedor_lista ul li span {
+  font-size: 20px;
+  background: #f0f9fb;
+  color: #da1d4f;
+}
+
+.contact_grid_left ul li span {
+  font-size: 16px;
+  color: #fff;
+}
+
+.primer_contenedor_lista li span, .contact_grid_left li span {
+  background: #ffa801;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 56px;
+  border-radius: 50%;
+}
+
+.primer_contenedor_lista ul li p, .contact_grid_left ul li p,
+.primer_contenedor_lista ul li a, .contact_grid_left ul li a {
+  color: #5a646b;
+  letter-spacing: 1px;
+}
+
+.primer_contenedor_lista h5 {
+  color: #3c4f5c;
+}
+
+.contact_grid_right {
+  background: #f7f7f7;
+  padding: 5em;
+}
+
+.contact_grid_left {
+  border-bottom: 1px solid #313c44;
+  margin: 0 0 3em 0;
+  padding-bottom: 3em;
+}
+
+.contact-page button.btn.btn-default {
+  width: 20%;
+}
+
+footer textarea {
+  width: 100%;
+}
+
+/* //contact address */
+
+/* //contact */
+
+/* **************************************************
+////////////////////// FOOTER //////////////////////
+************************************************** */

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ultramedic</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <div id="header" class="container">
+      <nav id="mainNavMenu" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" width="200" class="d-inline-block align-middle" alt="">
+          <span class="logo-title">ULTRA MEDIC</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbarNav -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li id="homeLink" class="navLinkHomeP nav-item active">
+              <a class="nav-link" href="#header">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li id="misionVisionValoresLink" class="navLinkHomeP nav-item">
+              <a class="nav-link" href="#misionVisionValores">Acerca de</a>
+            </li>
+            <li id="unidadesNegocioLink" class="navLinkHomeP nav-item">
+              <a class="nav-link" href="#unidadesNegocio">Negocio</a>
+            </li>
+            <li id="dondeEstamosLink" class="navLinkHomeP nav-item">
+              <a class="nav-link" href="#dondeEstamos">Ubicación</a>
+            </li>
+            <li id="contactoLink" class="navLinkHomeP nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li id="" class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--
+      CARRUSEL
+    -->
+    <div id="carruselContainer" class="container">
+      <div id="carrusel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner1.jpg" class="img-car d-block w-100" alt="1">
+            <div class="banner">
+              <div class="container">
+                <h4>Más que un implante...</h4>
+                <h4 class="subtitle">tu solución</h4>
+                <img id="banner1_crossline" src="./images/banner1_crossline.png" alt="crossline">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner2.jpg" class="img-car d-block w-100" alt="2">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner3.jpg" class="img-car d-block w-100" alt="3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!--
+      MAIN BODY
+    -->
+    <div id="mainbody" class="container">
+      <!--
+        MISION, VISION, VALORES
+      -->
+      <div id="misionVisionValores" class="row section">
+        <div class="col-12">
+          <h2 class="text-center">Acerca de ULTRA MEDIC</h2>
+        </div>
+      </div>
+      <div id="" class="card-group">
+        <div class="card">
+          <img src="./images/3.jpg" class="card-img-top" alt="Nuestra mision">
+          <div class="card-body">
+            <h4 class="card-title">Misión</h5>
+            <p class="card-text">Nuestra misión.</p>
+            <p class="card-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/4.jpg" class="card-img-top" alt="Nuestra vision">
+          <div class="card-body">
+            <h4 class="card-title">Visión</h5>
+            <p class="card-text">La visión de ULTRA MEDIC</p>
+            <p class="card-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/3.jpg" class="card-img-top" alt="Nuestros valores">
+          <div class="card-body">
+            <h4 class="card-title">Valores</h5>
+            <p class="card-text">Nuestros valores</p>
+            <p class="card-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!--
+        UNIDADES DE NEGOCIO
+      -->
+      <div id="unidadesNegocio" class="row section">
+        <div class="col-12">
+          <h2 class="text-center">Unidades de Negocio</h2>
+        </div>
+      </div>
+      <div id="unidadesNegocioNav" class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="neuro-tab" data-toggle="pill" href="#neuro" role="tab" aria-controls="neuro" aria-selected="true">Neurocirujía</a>
+            <a class="nav-link" id="trauma-tab" data-toggle="pill" href="#trauma" role="tab" aria-controls="trauma" aria-selected="false">Traumatología</a>
+            <a class="nav-link" id="movilidad-tab" data-toggle="pill" href="#movilidad" role="tab" aria-controls="movilidad" aria-selected="false">Movilidad</a>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="neuro" role="tabpanel" aria-labelledby="neuro-tab">
+              Neurología. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+            </div>
+            <div class="tab-pane fade" id="trauma" role="tabpanel" aria-labelledby="trauma-tab">
+              Traumatología. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+            </div>
+            <div class="tab-pane fade" id="movilidad" role="tabpanel" aria-labelledby="movilidad-tab">
+              Movilidad. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+        DÓNDE ESTAMOS
+      -->
+      <div id="dondeEstamos" class="row section">
+        <div class="col-12">
+          <h2 class="text-center">Donde Estamos</h2>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.149245481293!2d-100.99537008462693!3d22.158390285397537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842a9f4e11634215%3A0xaf31bc811337994c!2sEulogio%20Esmaurrizar%20136%2C%20Loreto%2C%20Valle%20de%20Tequisquiapan%2C%2078238%20San%20Luis%2C%20S.L.P.!5e0!3m2!1sen!2smx!4v1571605354976!5m2!1sen!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <!-- footer -->
+    <footer id="footer" class="footer-content py-sm-5 py-4">
+      <div id="contacto" class="container py-xl-5 py-lg-3">
+        <div class="contact_grid_left">
+          <ul class="list-unstyled row loaction-content">
+            <li class="col-12 col-lg-6">
+              <div class="header">
+                <h4 class="tittle">Contáctenos</h4>
+              </div>
+              <div class="contact-form mx-auto text-left pb-3">
+                <h6>Envíanos un correo electrónico a contacto@ultramedic.mx o rellena el formulario.</h6>
+                <form id="contactform" method="post" action="#">
+                  <div class="row">
+                    <div class="col">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Nombre" name="name">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="name" placeholder="Email" name="email">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col comentarios-col">
+                      <textarea name="name" rows="8" cols="80" placeholder="Ingresa tus comentarios"></textarea>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+            <li class="col">
+              <div class="row">
+                <div class="col">
+                  <h4 class="tittle">Contacto</h4>
+                  <p>Ultramedic</p>
+                  <p>Eulogio Esmaurrizar 136, Valle de Tequisquiapan, 78238, San Luis Potosí, SLP</p>
+                  <br>
+                  <a href="tel:+524448111426"><p>Tel: +52 (444) 811 14 26</p></a>
+                  <br>
+                  <a href="mailto:contacto@ultramedic.com.mx?subject=Motivo%20consulta"><p>E-mail: contacto@ultramedic.com.mx</p></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- social icons footer -->
+        <div class="w3ls-footer text-center">
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.facebook.com/pg/ultramedicslp/">
+                <span class="fab fa-facebook-f"></span>
+              </a>
+            </li>
+            <!-- <li class="mx-1">
+              <a href="#">
+                <span class="fa fa-twitter"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-dribbble"></span>
+              </a>
+            </li>
+            <li class="ml-1">
+              <a href="#">
+                <span class="fa fa-vk"></span>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+        <!-- copyright -->
+        <p class="copy-right-grids text-li text-center my-sm-4 my-4">© <span id="year"></span> Ultramedic. All Rights Reserved</p>
+        <div class="top_move text-center">
+          <a href="#header" class="move-top"><span class="fa fa-angle-up  mb-3" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      document.getElementById('year').innerText = new Date().getFullYear();
+    </script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- MY SCRIPTS -->
+    <script src="./js/app.js" charset="utf-8"></script>
+  </body>
+</html>
